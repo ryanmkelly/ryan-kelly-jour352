@@ -3,7 +3,7 @@
 /*setting font*/
 BODY {
     font-family: 'Open Sans', arial, sans-serif;
-    font-size: 1em;
+    font-size:1em;
     color:#444;
     font-weight:400;
 }
@@ -14,8 +14,7 @@ BODY {
     text-transform:uppercase;
     text-align:center;
     color:#33485e;
-    border:bottom 1px;
-    border-color:#33485e;
+    border-bottom: 1px solid #33485e;
     width:60%;
     min-width:300px;
     margin:0 auto;
@@ -87,6 +86,9 @@ ul {
     margin:0px;
     padding:0px;
     text-align:center;
+}
+
+.menu li {
     display:inline;
 }
 
