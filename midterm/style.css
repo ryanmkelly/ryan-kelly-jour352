@@ -1,0 +1,81 @@
+/* Headline*/
+h1 {
+    font-family: "IBM Plex Serif", Arial, sans-serif;
+    font-size: 50px;
+    font-weight: 300;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+/*Subheads*/
+h2 {
+    font-family: "IBM Plex Serif", Arial, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/*Body text*/
+p {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+}
+
+.navbar {
+    color: black;
+    font-family: "Playwrite NG Modern", Arial, sans-serif;
+    border-bottom: 10px solid black;
+}
+
+/*Navbar website title*/
+.navbar-brand {
+    padding-left: 15px;
+    font-size: 35px;
+}
+
+.navbar-light {
+    background-color: white !important;
+}
+
+#content {
+    margin: 0 auto;
+    width: 700px;
+    padding-top: 20px;
+}
+
+#byline {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    padding-bottom: 15px;
+    color: rgb(154, 154, 154);
+}
+
+img {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.caption {
+    text-align: center;
+    color: rgb(154, 154, 154);
+}
+
+.additional {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-style: italic;
+}
+
+blockquote {
+    font-family: normal helvetica, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+    margin-left: 50px;
+    padding-left: 15px;
+    border-left: 4px solid #ccc;
+    padding-bottom: 20px;
+}
