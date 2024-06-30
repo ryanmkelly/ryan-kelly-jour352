@@ -1,0 +1,154 @@
+body {
+    background-color: white;
+    color: black;
+    margin: 0;
+}
+
+#opener {
+    margin: auto;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    /* makes whole screen blue*/
+    height: 100vh;
+    /*centers grid items*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 100px;
+    margin: 0;
+    padding: 20px;
+}
+
+.title {
+    font-size: 50px;
+    margin: 0;
+    padding: 20px;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+}
+
+.row {
+    align-items: center;
+    width: 100%;
+}
+
+.navbar {
+    background-color: black !important;
+    
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 18px;
+}
+
+.me-auto {
+    padding-left: 25px;
+}
+
+.ms-auto {
+    padding-right: 25px;
+}
+
+#content {
+    margin: 0 auto;
+    width: 900px;
+}
+
+.summary {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.right {
+    float: right;
+}
+
+.education {
+    padding-bottom: 15px;
+    border-bottom: solid #00003b 3px;
+}
+
+.item {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #00003b;
+    font-weight: 600;
+}
+
+.work-experience {
+    padding-top: 10px;
+    border-bottom: solid #00003b 3px;
+}
+
+.description {
+    padding-top: 20px;
+    border-bottom: solid #00003b 1px;
+}
+
+h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #00003b;
+}
+
+.relevant-coursework {
+    padding-top: 10px;
+    border-bottom: solid #00003b 3px;
+}
+
+.space {
+    margin: 0;
+    padding-top: 10px;
+}
+
+.skills {
+    padding-top: 10px;
+}
+
+.skill-item {
+    padding-bottom: 10px;
+    font-size: 20px;
+    color: #00003b;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.footer {
+    background-color: black !important;
+    color: white;
+    text-align: center;
+}
+
+.bi {
+    font-size: 30px;
+    padding-right: 15px;
+    display: inline-block;
+}
+
+.skill {
+    display: block
+}
+
+/*picture stays in black part of screen when shrunk*/
+@media (max-width: 1000px) {
+    #opener {
+        height: auto;
+    }
+}
